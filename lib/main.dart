@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_trips_app/description_place.dart';
-import 'package:flutter_trips_app/review.dart';
 import 'package:flutter_trips_app/review_list.dart';
-import 'package:flutter_trips_app/gradient_back.dart';
+import 'package:flutter_trips_app/header_appbar.dart';
 
 void main() => runApp(MyApp());
 
@@ -27,7 +26,6 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.red,
       ),
       home: Scaffold(
-          //body: new DescriptionPlace("Bahamas", 4, descriptionDummy),
           body: Stack(
             children: <Widget>[
               ListView(
@@ -36,7 +34,7 @@ class MyApp extends StatelessWidget {
                   ReviewList()
                 ],
               ),
-              GradientBack()
+              HeaderAppBar()
             ],
           ),
       )
