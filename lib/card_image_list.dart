@@ -7,17 +7,15 @@ class CardImageList extends StatelessWidget {
   Widget build(BuildContext context) {
 
     return Container(
-      height: 350.0,
+      height: 330.0,
         child: ListView(
           padding: EdgeInsets.all(25.0),
           scrollDirection: Axis.horizontal,
           children: <Widget>[
-            CardImage("assets/img/sunset.png"),
-            CardImage("assets/img/mountains.png"),
-            CardImage("assets/img/mountains2.png"),
-            CardImage("assets/img/beach.png"),
-            CardImage("assets/img/beach2.png"),
-            CardImage("assets/img/river.png"),
+            CardImage("assets/img/bahamas1.jpg"),
+            CardImage("assets/img/bahamas2.jpg"),
+            CardImage("assets/img/bahamas3.jpg"),
+            CardImage("assets/img/bahamas4.jpg"),
           ],
         ),
     );

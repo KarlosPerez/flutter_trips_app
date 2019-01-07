@@ -70,12 +70,10 @@ flutter:
     - assets/img/people.jpg
     - assets/img/ann.jpg
     - assets/img/girl.jpg
-    - assets/img/mountains.png
-    - assets/img/mountains2.png
-    - assets/img/beach.png
-    - assets/img/beach2.png
-    - assets/img/sunset.png
-    - assets/img/river.png
+    - assets/img/bahamas1.jpg
+    - assets/img/bahamas2.jpg
+    - assets/img/bahamas3.jpg
+    - assets/img/bahamas4.jpg
 
 
   fonts:

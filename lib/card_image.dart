@@ -11,11 +11,12 @@ class CardImage extends StatelessWidget {
   Widget build(BuildContext context) {
 
     final card = Container(
-      height: 220.0,
-        width: 220.0,
+      height: 200.0,
+        width: 270.0,
       margin: EdgeInsets.only(
-        top: 80.0,
-        left: 20.0
+        top: 50.0,
+        left: 10.0,
+        bottom: 15.0
       ),
       decoration: BoxDecoration(
         image: DecorationImage(
@@ -26,8 +27,8 @@ class CardImage extends StatelessWidget {
         boxShadow: <BoxShadow> [
           BoxShadow(
             color: Colors.black38,
-            blurRadius: 15.0,
-            offset: Offset(0.0, 7.0)
+            blurRadius: 13.0,
+            offset: Offset(0.0, 6.0)
           )]
       ),
     );

@@ -5,10 +5,10 @@ import 'package:flutter_trips_app/review_list.dart';
 
 class HomeTrips extends StatelessWidget {
 
-  String descriptionDummy = "Lorem Ipsum is simply dummy text of the printing and "
-      "typesetting industry. Lorem Ipsum has been the industry's standard dummy "
-      "text ever since the 1500s, when an unknown printer took a galley of type"
-      " and scrambled it to make a type specimen book.";
+  String descriptionDummy = "Las Bahamas son un archipiélago caracterizado por sus corales"
+      " en el océano Atlántico. Entre sus más de 700 islas y cayos, hay algunos"
+      " que están desiertos y otros que poseen complejos turísticos muy populares,"
+      " como el Gran Bahama, y la isla Paradise, lugar de muchos hoteles de gran nivel.";
 
   @override
   Widget build(BuildContext context) {

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class ButtonPurple extends StatelessWidget {
 
-  String buttonText = "Navigate";
+  String buttonText = "Navegar";
 
   ButtonPurple(this.buttonText);
 
