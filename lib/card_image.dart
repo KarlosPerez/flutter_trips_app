@@ -11,8 +11,8 @@ class CardImage extends StatelessWidget {
   Widget build(BuildContext context) {
 
     final card = Container(
-      height: 350.0,
-        width: 250.0,
+      height: 220.0,
+        width: 220.0,
       margin: EdgeInsets.only(
         top: 80.0,
         left: 20.0
