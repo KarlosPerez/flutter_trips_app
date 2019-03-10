@@ -4,7 +4,7 @@ Una aplicación bastante simple, usando flutter.
 
 ## Propósito
 
-Esta aplicación se hizo como proyecto del curso de Flutter de Platzi. 
+Esta aplicación se hizo como proyecto del curso de Flutter de Platzi, el cual muestra un carrusel de imagenes, uso de texto y botones.
 
 ## Vista Previa
 
